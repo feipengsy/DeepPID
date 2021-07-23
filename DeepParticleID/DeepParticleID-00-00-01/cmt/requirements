@@ -1,0 +1,19 @@
+package DeepParticleID
+author "Teng Li"  <tengli@sdu.edu.cn>
+
+
+branches cmt src DeepParticleID
+
+use BesPolicy       BesPolicy-01-*
+use DstEvent        DstEvent-*           Event
+use EvtRecEvent     EvtRecEvent-*        Event
+use MdcRecEvent MdcRecEvent-*  Mdc
+use TofRecEvent TofRecEvent-*  Tof
+use EmcRecEventModel EmcRecEventModel-* Emc
+use MucRecEvent MucRecEvent-*  Muc
+use ParticleID   ParticleID-*  Analysis
+
+library DeepParticleID  *.cxx
+
+apply_pattern installed_library
+macro_append DeepParticleID_cppflags " -std=c++0x "
