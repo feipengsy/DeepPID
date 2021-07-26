@@ -14,7 +14,7 @@ make
 source setup.sh
 ```
 
-3. Edit your requirements file of your analysis package, add `use DeepParticleID`
+3. Edit your requirements file of your analysis package, add `use DeepParticleID DeepParticleID-*`
 4. This is an example code of using the DeepParticleID code:
 
 ```c++
