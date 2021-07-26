@@ -7,6 +7,7 @@
 
 ```bash
 git clone https://github.com/feipengsy/DeepPID.git
+# If you are on lxslc7, you could source the following setup.sh to setup ml packages. Otherwise see next section
 source DeepPID/setup.sh 
 cd DeepPID/DeepParticleID/DeepParticleID-00-00-01/cmt
 cmt config
