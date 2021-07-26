@@ -31,7 +31,7 @@ StatusCode Analysis::execute() {
   float prob_K = pid->prob(3);
 
   //...
-  
+  delete pid;
 }
 ```
 ## Setup ML packages
